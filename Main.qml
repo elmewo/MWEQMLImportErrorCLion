@@ -1,5 +1,5 @@
 import QtQuick
-import module1
+import Module
 
 Window {
     width: 640
@@ -7,7 +7,7 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    Type1 {
+    Type {
         anchors.fill: parent
     }
 }

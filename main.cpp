@@ -6,9 +6,7 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    Q_IMPORT_QML_PLUGIN(module1Plugin)
-    Q_IMPORT_QML_PLUGIN(module2Plugin)
-    Q_IMPORT_QML_PLUGIN(module3Plugin)
+    Q_IMPORT_QML_PLUGIN(ModulePlugin)
 
     QQmlApplicationEngine engine;
     QObject::connect(

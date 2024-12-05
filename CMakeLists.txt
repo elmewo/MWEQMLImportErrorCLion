@@ -23,8 +23,7 @@ qt_add_qml_module(appMWEQmlImports
 
 target_link_libraries(appMWEQmlImports
         PUBLIC
-            module1plugin
-            module2plugin
+            Moduleplugin
         PRIVATE Qt6::Quick
 )
 
